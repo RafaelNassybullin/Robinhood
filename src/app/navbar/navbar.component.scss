@@ -1,0 +1,74 @@
+nav {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1.667vw;
+  height: 4.444vw;
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  z-index: 23;
+}
+.wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  width: 96.472vw;
+}
+
+.logo {
+  width: 9.861vw;
+  height: 2.431vw;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  text-transform: capitalize;
+    align-items: center;
+  li {
+    margin: 0 1.9vw;
+  }
+}
+
+button {
+  text-transform: capitalize;
+}
+
+.mob-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.181vw;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 2vw;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  width: 10.000vw;
+  height: 3.333vw;
+  font-size: 1.250vw;
+}
+
+.auth {
+
+  .login {
+    background: transparent;
+    margin-right: -1vw;
+  }
+
+  .signin {
+
+    background: #00C805;
+
+  }
+}

@@ -1,0 +1,34 @@
+section{
+  width: 100%;
+  height: 31.458vw;
+  border-bottom: black solid 0.139vw;
+  border-top: black solid 0.139vw;
+  display: flex;
+  align-items: center;
+  .image{
+    margin: -0.069vw 0.903vw -0.100vw 0.903vw;
+    width: 56.042vw;
+    height: 100%;
+    background: pink;
+    img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+.text{
+
+
+  h1{
+    font-size: 3.125vw;
+  }
+  h4{
+    font-size: 1.250vw;
+    margin-top: 2.083vw;
+    cursor: pointer;
+  }
+}
+
+
+
+}
