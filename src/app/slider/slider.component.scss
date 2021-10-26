@@ -1,26 +1,66 @@
 @import "~swiper/swiper-bundle.min.css";
-//@import "~swiper/css/";
-.swiper {
-  //width: 100%;
-  height: 100vh;
+
+.slider-section {
+  width: 100%;
+  background: black;
+  color: white;
+  height: 47.292vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.mySwiper{
-  margin-bottom: 90px;
+
+.image-slide {
+  //width: 39.583vw;
+  width: 18.583vw;
+  margin-left: 7vw;
+  height: 34.722vw;
 }
-.my-slidess{
+
+.text-slide {
+  width: 33.333vw;
+  margin-left: 4vw;
+  h1{
+    font-size: 3.125vw;
+    font-weight: 400;
+    margin-bottom: 2vw;
+  }
+  p{
+    font-size: 1.250vw;
+    line-height: 1.944vw;
+  }
+}
+
+.container {
+  height: 36.806vw;
+  width: 70.556vw;
+  //background: darkseagreen;
+}
+
+.mySwiper {
   width: 100%;
   height: 100%;
-  background: #C3F53C;
-  display:flex;
-  align-items:center;
-  font-size: 150px;
+}
+
+.my-slidess {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
   color: white;
-  justify-content:center;
+  justify-content: center;
+}
+.order{
+  order: 1;
+  margin-left: 1vw;
+}
+.mod{
+  width: 36.333vw;
 }
 .swiper-slide {
-  text-align: center;
+  //text-align: center;
   font-size: 18px;
-  background: #fff;
+  //background: #fff;
 
   /* Center slide text vertically */
   display: -webkit-box;
@@ -38,9 +78,49 @@
 }
 
 .swiper-slide img {
-  display: block;
-  width: 100%;
   height: 100%;
-  object-fit: cover;
 }
 
+.swiper-vertical > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-vertical,
+.swiper-pagination-custom, .swiper-pagination-fraction {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 7.847vw;
+  bottom: unset;
+  right: unset;
+  font-size: 1.597vw;
+  left: unset;
+  text-align: unset;
+}
+
+.pagi {
+  color: gray;
+  padding: 1.1vw 0;
+  cursor: pointer;
+}
+
+.pagi-active {
+  color: white;
+}
+
+.navi {
+  position: absolute;
+  top: 50%;
+  left: 5.847vw;
+  z-index: 9;
+  transform: translateY(-50%);
+}
+
+.container {
+  position: relative;
+}
+.next-btn, .prev-btn{
+  margin: 13.667vw 0;
+  width: 1.944vw;
+  height: 1.944vw;
+  cursor: pointer;
+}
