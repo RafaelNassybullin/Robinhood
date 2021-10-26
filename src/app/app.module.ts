@@ -12,6 +12,12 @@ import { FooterComponent } from './footer/footer.component';
 import { RightsComponent } from './rights/rights.component';
 import { SliderComponent } from './slider/slider.component';
 import {SwiperModule} from "swiper/angular";
+import { ProductsComponent } from './products/products.component';
+import { CashComponent } from './products/cash/cash.component';
+import { StocksComponent } from './products/stocks/stocks.component';
+import { OptionsComponent } from './products/options/options.component';
+import { GoldComponent } from './products/gold/gold.component';
+import { CryptoComponent } from './products/crypto/crypto.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +29,13 @@ import {SwiperModule} from "swiper/angular";
     FrationalSharesComponent,
     FooterComponent,
     RightsComponent,
-    SliderComponent
+    SliderComponent,
+    ProductsComponent,
+    CashComponent,
+    StocksComponent,
+    OptionsComponent,
+    GoldComponent,
+    CryptoComponent
   ],
   imports: [
     BrowserModule,
