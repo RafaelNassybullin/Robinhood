@@ -18,6 +18,9 @@ import { StocksComponent } from './products/stocks/stocks.component';
 import { OptionsComponent } from './products/options/options.component';
 import { GoldComponent } from './products/gold/gold.component';
 import { CryptoComponent } from './products/crypto/crypto.component';
+import {BooleanService} from "./boolean.service";
+
+
 
 @NgModule({
   declarations: [
@@ -40,9 +43,9 @@ import { CryptoComponent } from './products/crypto/crypto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SwiperModule
+    SwiperModule,
   ],
-  providers: [],
+  providers: [BooleanService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

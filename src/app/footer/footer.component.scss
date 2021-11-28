@@ -5,7 +5,7 @@
   display: flex;
   margin-bottom: 1.875vw;
   justify-content: space-between;
-@media(max-width: 433px){
+@media(max-width: 507px){
 height: 107.722vw;
   justify-content: space-between;
 flex-direction: column;
@@ -17,19 +17,19 @@ flex-direction: column;
     display: flex;
     justify-content: space-between;
     width: 26.250vw;
-@media(max-width: 433px){
+@media(max-width: 507px){
 width: 58.25vw;
 flex-direction: column;
   }
     ul {
       list-style: none;
-@media(max-width: 433px){
+@media(max-width: 507px){
 margin-bottom: 13vw;
   }
       li {
         margin-bottom: 1.111vw;
         font-size: 1.181vw;
-@media(max-width: 433px){
+@media(max-width: 507px){
 margin-bottom: 2.111vw;
 font-size: 2.181vw;
   }
@@ -37,7 +37,7 @@ font-size: 2.181vw;
           text-decoration: none;
           font-size: 1.181vw;
           color: white;
-          @media(max-width: 433px){
+          @media(max-width: 507px){
 font-size: 5.181vw;
   }
         }
@@ -51,7 +51,7 @@ font-size: 5.181vw;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-@media(max-width: 433px){
+@media(max-width: 507px){
 width: 92.167vw;
 height: 91vw;
 
@@ -59,7 +59,7 @@ height: 91vw;
     .logo {
       width: 8.681vw;
       height: 3.681vw;
-      @media(max-width: 433px){
+      @media(max-width: 507px){
 width: 43.681vw;
 height: 22.681vw;
   }
@@ -69,7 +69,7 @@ height: 22.681vw;
       color: #79858B;
       line-height: 1.944vw;
       font-size: 1.250vw;
-      @media(max-width: 433px){
+      @media(max-width: 507px){
 line-height: 7.944vw;
 font-size: 4.25vw;
 margin-bottom: 9vw;
@@ -85,7 +85,7 @@ margin-bottom: 9vw;
       align-items: center;
       justify-content: space-between;
       background: #1E2124;
-@media(max-width: 433px){
+@media(max-width: 507px){
 border-radius: 12vw;
 height: 17.444vw;
 padding: 0 0.833vw 0 5.569vw;
@@ -96,7 +96,7 @@ padding: 0 0.833vw 0 5.569vw;
         outline: none;
         background: transparent;
         color: white;
-        @media(max-width: 433px){
+        @media(max-width: 507px){
 font-size: 5.25vw;
   }
       }
@@ -112,7 +112,7 @@ font-size: 5.25vw;
         color: black;
         border-radius: 3vw;
         cursor: pointer;
-        @media(max-width: 433px){
+        @media(max-width: 507px){
 height: 9.944vw;
 width: 34.764vw;
           font-size: 4.25vw;

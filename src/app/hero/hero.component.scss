@@ -6,7 +6,7 @@ main {
   display: flex;
   align-items: center;
   border-bottom: black solid 0.139vw;
-  @media(max-width: 433px) {
+  @media(max-width: 507px) {
     height: 216.861vw;
     flex-direction: column;
   }
@@ -15,7 +15,7 @@ main {
 .block {
   width: 100%;
   height: 100%;
-  @media(max-width: 433px) {
+  @media(max-width: 507px) {
   }
 }
 
@@ -25,7 +25,7 @@ main {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  @media(max-width: 433px) {
+  @media(max-width: 507px) {
     width: 91.167vw;
     height: 111.347vw;
     justify-content: flex-start;
@@ -35,7 +35,7 @@ main {
     font-size: 3.194vw;
     width: 20.833vw;
     line-height: 4.167vw;
-    @media(max-width: 433px) {
+    @media(max-width: 507px) {
       font-size: 13.194vw;
       width: 100%;
       line-height: 15.167vw;
@@ -46,7 +46,7 @@ main {
     font-size: 1.667vw;
     margin: 1.597vw 0;
     line-height: 2.500vw;
-    @media(max-width: 433px) {
+    @media(max-width: 507px) {
       font-size: 5.667vw;
       margin: 8.597vw 0;
       line-height: 7.5vw;
@@ -66,7 +66,7 @@ main {
     background: black;
     font-size: 1.250vw;
     color: white;
-    @media(max-width: 433px) {
+    @media(max-width: 507px) {
       border-radius: 6vw;
       width: 47vw;
       height: 10.333vw;
@@ -77,7 +77,7 @@ main {
   p {
     font-size: 1.250vw;
     margin-top: 2.778vw;
-    @media(max-width: 433px) {
+    @media(max-width: 507px) {
       font-size: 4.25vw;
       margin-top: 6.778vw;
     }
@@ -87,7 +87,7 @@ main {
 .image {
   width: 45.764vw;
   height: 41.875vw;
-  @media(max-width: 433px) {
+  @media(max-width: 507px) {
     width: 91.764vw;
     height: 79.875vw;
     margin-top: 8vw;
@@ -96,7 +96,7 @@ main {
   img {
     width: 100%;
     height: 100%;
-    @media(max-width: 433px) {
+    @media(max-width: 507px) {
       object-fit: contain;
     }
   }

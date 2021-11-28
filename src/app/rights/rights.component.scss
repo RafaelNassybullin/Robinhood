@@ -3,14 +3,14 @@
   width: 100%;
   padding: 3.194vw 5.556vw;
   background: black;
-  @media(max-width: 433px) {
+  @media(max-width: 507px) {
     padding: 13.194vw 1.556vw;
     height: 349vw;
   }
   .wrapper {
     width: 100%;
     padding: 0 2.569vw;
-    @media(max-width: 433px) {
+    @media(max-width: 507px) {
 
     }
     .stairs-text {
@@ -18,14 +18,14 @@
       display: flex;
       align-items: flex-end;
       flex-direction: column;
-      @media(max-width: 433px) {
+      @media(max-width: 507px) {
         margin-top: 103vw;
       }
 
       p {
         margin-bottom: 0.486vw;
         font-size: 1.250vw;
-        @media(max-width: 433px) {
+        @media(max-width: 507px) {
           margin-bottom: 2.486vw;
           font-size: 3.5vw;
         }
@@ -37,28 +37,28 @@
       background: gray;
       height: 0.139vw;
       margin: 2.500vw 0;
-      @media(max-width: 433px) {
+      @media(max-width: 507px) {
 
       }
     }
 
     .rights {
       font-size: 1.042vw;
-      @media(max-width: 433px) {
+      @media(max-width: 507px) {
         margin-top: 20vw;
       }
 
       p {
         margin-bottom: 1.667vw;
         font-size: 1.250vw;
-        @media(max-width: 433px) {
+        @media(max-width: 507px) {
           font-size: 3.6vw;
         }
 
         a {
           color: #00B705;
           text-decoration: none;
-          @media(max-width: 433px) {
+          @media(max-width: 507px) {
 
           }
         }
