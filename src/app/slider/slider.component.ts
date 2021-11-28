@@ -9,6 +9,7 @@ import SwiperCore, {
   Navigation
 } from 'swiper';
 
+import './swiper.min.css'
 
 SwiperCore.use([
   EffectFade,
