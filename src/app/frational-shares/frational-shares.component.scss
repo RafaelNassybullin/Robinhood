@@ -7,45 +7,82 @@ section {
   justify-content: center;
   position: relative;
   z-index: -9;
+  overflow: hidden;
+  @media(max-width: 433px) {
+    padding: 0 2.5vw;
+    height: 199.806vw;
+  }
 
   .block {
     width: 88.889vw;
     height: 29.792vw;
     padding: 0 2.083vw;
+    @media(max-width: 433px) {
+      width: 96.889vw;
+      height: 100%;
+    }
   }
 }
 
 .titles {
   height: 9.167vw;
+  @media(max-width: 433px) {
+
+  }
 
   h1 {
     margin-bottom: 1.389vw;
     font-size: 2.153vw;
+    @media(max-width: 433px) {
+      font-size: 9.153vw;
+      margin-top: 9vw;
+    }
   }
 
   h4 {
     font-weight: 400;
     font-size: 1.181vw;
     color: gray;
+    @media(max-width: 433px) {
+      font-size: 5.181vw;
+      margin-top: 4vw;
+    }
   }
 }
 
 .columns {
   display: flex;
+  @media(max-width: 433px) {
+    flex-direction: column;
+    margin-top: 37vw;
+  }
 }
 
 .column {
   width: 17.361vw;
   margin-right: 3.056vw;
   font-size: 1.250vw;
+  @media(max-width: 433px) {
+    width: 49.361vw;
+
+    font-size: 4.25vw;
+    margin-bottom: 11vw;
+  }
 }
 
 .texts {
   line-height: 1.944vw;
+  @media(max-width: 433px) {
+    line-height: 5.944vw;
+  }
 }
 
 h5 {
   margin-bottom: 0.764vw;
+  @media(max-width: 433px) {
+    margin-bottom: 3.764vw;
+    font-size: 5vw;
+  }
 }
 
 .image {
@@ -54,12 +91,21 @@ h5 {
   top: 0;
   width: 31.736vw;
   z-index: -1;
-
   height: 100%;
+  @media(max-width: 433px) {
+    height: 75vw;
+    bottom: 0;
+    right: -29vw;
+    width: 72.736vw;
+    top: unset;
+  }
 
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    @media(max-width: 433px) {
+
+    }
   }
 }

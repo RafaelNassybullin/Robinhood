@@ -23,7 +23,8 @@ SwiperCore.use([
       <div class="container">
         <swiper class="mySwiper"
                 [config]="config"
-                [mousewheel]="true"
+                [mousewheel]="false"
+                [allowTouchMove]="false"
         >
           <ng-template swiperSlide>
             <div class="my-slidess">
@@ -67,14 +68,14 @@ SwiperCore.use([
             <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M19.3021 13.1979L21.3645 11.1355L11 0.770996L0.635437 11.1355L2.69783 13.1979L9.5417 6.3541V21.5001H12.4583V6.35414L19.3021 13.1979Z"
-                    fill="#545D61"/>
+                    />
             </svg>
           </div>
           <div class="prev-btn">
             <svg viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                     d="M2.69783 8.80217L0.635437 10.8646L10.9999 21.2291L21.3645 10.8646L19.3021 8.80217L12.4582 15.646V0.5H9.54164V15.646L2.69783 8.80217Z"
-                    fill="#545D61"/>
+                    />
             </svg>
           </div>
         </div>

@@ -10,6 +10,10 @@ nav {
   top: 0;
   left: 0;
   z-index: 23;
+  @media(max-width: 433px){
+    padding: 0 5.667vw;
+    height: 15.444vw;
+  }
 }
 .wrapper{
   display:flex;
@@ -24,6 +28,10 @@ nav {
   display:flex;
   align-items:center;
   justify-content:center;
+  @media(max-width: 433px){
+    width: 45.861vw;
+    height: unset;
+  }
 }
 
 ul {
@@ -46,6 +54,9 @@ button {
   justify-content: space-between;
   width: 100%;
   font-size: 1.181vw;
+  @media(max-width: 433px){
+      display: none;
+  }
 }
 
 button {

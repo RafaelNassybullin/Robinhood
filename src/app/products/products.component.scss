@@ -4,54 +4,79 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  @media(max-width: 433px){
+height: 207.542vw;align-items: flex-start;
+  }
 }
 
 .our-container {
   width: 88.889vw;
   height: 43.542vw;
   padding: 0 2.569vw;
-  //background: #C3F53C;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  @media(max-width: 433px){
+width: 100.889vw;
+height: 50.542vw;margin-top: 17vw;
+  }
 }
 
 .our-navigation {
-  //background: darkseagreen;
   position: absolute;
   top: 0;
   left: 2.569vw;
+  @media(max-width: 433px){
+
+  }
 }
 
 h1 {
   font-size: 2.153vw;
   margin-bottom: 1.806vw;
   font-weight: 400;
+  @media(max-width: 433px){
+font-size: 9.153vw;
+margin-bottom: 0.806vw;
+  }
 }
 
 ul {
   display: flex;
   list-style: none;
   align-items: center;
-
+@media(max-width: 433px){
+display: none;
+  }
   li {
     margin-right: 1.597vw;
+@media(max-width: 433px){
 
+  }
     a {
       color: #6F787E;
       text-decoration: none;
       font-size: 1.667vw;
+      @media(max-width: 433px){
+
+  }
     }
 
     .active {
       color: black;
+      @media(max-width: 433px){
+
+  }
     }
   }
 }
 
 .pink {
   color: #FF90AF;
+  @media(max-width: 433px){
+
+  }
 }
 
 .our-border {
@@ -59,6 +84,9 @@ ul {
   height: 2.500vw;
   background: #6F787E;
   margin-right: 1.597vw;
+  @media(max-width: 433px){
+
+  }
 }
 
 
